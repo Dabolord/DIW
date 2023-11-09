@@ -1,0 +1,89 @@
+#registro{
+    padding: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 2px color(#888 red green blue);
+    border-bottom: 2px color(#888);
+    width: 710px;
+    text-align: center;
+    margin: 20px;
+    background-color:rgba(0, 0, 0, 20%);
+    background-image:url("/css/img/bg-form.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+
+}
+ul{
+  list-style: none;  
+}
+li{
+    margin-bottom: 15px;
+
+}
+@font-face {
+    font-family: 'mifuentepersonalizada';
+    src: url('/css/Fonts/league-gothic/LeagueGothic-Regular-VariableFont_wdth.ttf');
+}
+@font-face {
+    font-family: 'mifuentepersonalizada2';
+    src: url('/css/Fonts/acknowledgement/Acknowledgement.otf');
+}
+label{
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    font-family: 'mifuentepersonalizada';
+}
+h1{
+    font-size: 2em;
+    padding-bottom: 20px;
+    font-family: 'mifuentepersonalizada2';
+    background:
+    url('/css/img/bg-formtitle-left.png') left 13px no-repeat,
+    url('/css/img/bg-formtitle-right.png') right 13px no-repeat;
+    background-size: 100px auto ;
+    
+    
+
+}
+button{
+    
+    border-radius: 5px;
+    border: none;
+    background: linear-gradient(rgb(144,144,144),rgb(72,72,72));
+    color: white;
+    font-family: 'mifuentepersonalizada';
+    opacity: 80%;
+    
+
+
+}
+button:hover{
+    transition: linear 0.25s;
+    opacity: 100%;
+}
+input{
+    border: none;
+    border-bottom: 1px dotted #000;
+    background: transparent;
+    outline: none;
+    background: transparent no-repeat top right;
+}
+input:required { background-image: url('../css/img/required.png'); 
+}
+input:not([type=range]):not([type=submit]):not([type=button]):not([type=checkbox]):invalid{
+    background-image: url('../css/img/invalid.png');
+
+}
+input:not([type=range]):not([type=submit]):not([type=button]):not([type=checkbox]):valid{
+    background-image: url('../css/img/valid.png');
+
+}
+
+
+
+
+
+
+
