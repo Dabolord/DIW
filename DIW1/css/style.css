@@ -1,0 +1,87 @@
+header{
+   
+}
+h1{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 20px;
+    background-size: 100px auto ;
+}
+
+
+body{
+    text-align: center;
+}
+ul, ol {
+    list-style:none;
+}
+
+.nav > li {
+    float:left;
+}
+
+.nav li a {
+    background-color:#000;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+}
+
+.nav li a:hover {
+    background-color:#434343;
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+.nav li ul li {
+    position:relative;
+}
+
+.nav li ul li ul {
+    right:-140px;
+    top:0px;
+}
+div{
+    display: inline-block;
+}
+
+footer{
+    background-color: #313B44;
+    border-bottom: 6px black solid;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+main{
+    display: inline-block;
+}
+#tabla{
+    border-radius: 20px;
+}
+
+label{
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    font-family: 'mifuentepersonalizada';
+}
+button{
+    
+    border-radius: 5px;
+    border: none;
+    background: linear-gradient(rgb(67, 201, 201),rgb(120, 204, 9));
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    opacity: 80%;
+    
+}
+
