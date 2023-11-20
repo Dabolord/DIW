@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styleformulario.css">
+    <script src="../Scripts/transicion.js"></script>
+    <title>Pedidos</title>
+</head>
+<body>
+    <form id="compra" method="post"> <span class="word" id="word">Inicia tu compra</span>
+        <ul>
+            <li>
+                <label for="nombre">Mi nombre es:</label><br>
+                <input type="text" id="nombre" name="nombre" autofocus required>
+            </li>
+            <li>
+                <label for="email">Mi email es:</label><br>
+                <input type="email" id="email" pattern=".+@gmail\.com" name="email" required> 
+            </li>
+            <li>
+                <label for="Dni">Mi Dni es:</label><br>
+                <input type="text" id="Dni" name="Dni" pattern="[0-9]{8}[A-Za-z]{1}"  required>
+                
+            </li>
+            <li>
+                
+                <label for="apellidos">Mis apellidos son:</label><br>
+                <input type="text" id="apellidos" name="apellidos" required>
+            </li>
+            <li>
+                <label for="teléfono1">Mi número de telefono principal es:</label><br>
+                <input type="tel" id="teléfono1" name="teléfono1" min="9" max="9" required>
+            </li>
+            <li>
+                <label for="teléfono2">Mi 2º número de teléfono es:</label><br>
+                <input type="tel" id="teléfono2" name="teléfono2"min="9" max="9"required>
+            </li>
+            <li>
+                <label for="fechadenacimiento">Mi fecha de nacimiento es:</label><br>
+                <input type="date" id="fechadenacimiento" name="fechadenacimiento"required>
+            </li>
+            <li>
+                <label for="lang">Elige tu producto</label>
+                <select name="productos" id="lang" required>
+                    <option value="ZM-120-RUN">Zapatilla mujer runner</option>
+                    <option value="ZM-150-PRO">Zapatilla mujer pronador</option>
+                    <option value="ZM-120-SUP ">Zapatilla mujer supinador</option>
+                    <option value="ZM-120-PRO">Zapatilla mujer profesional </option>
+                    <option value="ZH-120-RUN">Zapatilla hombre runner</option>
+                    <option value="ZH-150-PRO ">Zapatilla hombre pronador</option>
+                    <option value="ZH-120-SUP">Zapatilla hombre supinador</option>
+                    <option value="ZH-120-PRO">Zapatilla hombre profesional</option>
+                </select>
+            </li>
+            <li>
+                <label for="colordecaja">El color de caja elegido es:</label><br>
+                <input type="color" id="colordecaja" name="colordecaja" required>
+            </li>
+            <li>
+                <label for="cantidadcomprada">La cantidad que quiero comprar es:</label><br>
+                <input type="number" id="cantidadcomprada" name="cantidadcomprada"required min="1" max="1000">
+            </li>
+        </ul>
+        <button>ACEPTA EL PEDIDO</button>
+
+
+
+
+
+
+</body>
+</html>
